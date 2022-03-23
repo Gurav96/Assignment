@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+input:focus{
+    border:0px solid transparent;
+}
+body{
+    background: aqua;
+}
+.field{
+    width:400px;
+    margin:400px auto;
+    display: flex;
+    background-color: white;
+    border-radius: 6px;;
+    /* border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px; */
+    outline: 2px solid transparent;
+}
+.field:hover{
+    outline: 2px solid #ccc;
+    /* background-color: lightgray; */
+}
+.field input{
+    width:360px;
+    height:40px;
+    font-size: 18px;
+    font-weight: 200;
+    text-indent: 10px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border: none;
+    outline: none;
+}
+.field button{
+    width:40px;
+    height: 40px;;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border: 1px solid transparent;
+    background: transparent;
+    cursor: pointer;
+}
+.field button img{
+    width:80%;
+    margin:auto;
+    color:black;
+    align-items: center;
+}
+.field button:hover {
+    background-color: lightgray;
+}
